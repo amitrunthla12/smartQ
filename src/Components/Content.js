@@ -41,25 +41,19 @@ class Content extends React.Component {
                 i.color = i.color === GREEN_COLOR ? RED_COLOR : GREEN_COLOR
             }
         })
-        this.setState({
-            values: updateValues
-        })
+        this.updateState(updateValues)
     }
 
     availableAll = () => {
         let updateValues = this.state.values
         updateValues.map((i) => i.color = GREEN_COLOR)
-        this.setState({
-            values: updateValues
-        })
+        this.updateState(updateValues)
     }
 
     unavailableAll = () => {
         let updateValues = this.state.values
         updateValues.map((i) => i.color = RED_COLOR)
-        this.setState({
-            values: updateValues
-        })
+        this.updateState(updateValues)
     }
 
     timeNow = () => {
