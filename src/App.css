@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+/*cardcss*/
+.foodCard{
+  box-sizing: border-box;
+  box-shadow: 0px 4px 24px rgba(2, 2, 65, 0.11);
+  border-radius: 16px;
+  width: 150px;
+  height:150px
+}
+
+.foodTitle{
+  font-size: 14px;
+  color: white;
+}
+
+/*card menu*/
+.sideMenu{
+  height: 850px;
+}
+
+/*cardMenu*/
+.cardMenu{
+  cursor: pointer;
+  padding-top: 10px;
+  height: 50px;
+}
+
+/*footer*/
+.footer{
+  background: #EEEEEE;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px
+}
+
+.btnFooter{
+  margin: 10px;
+  background: #FEBF34;
+  color: black;
+  width: 90%;
+  border-radius: 50px;
+  box-shadow: 0px 4px 24px rgba(2, 2, 65, 0.11)
+}
+
